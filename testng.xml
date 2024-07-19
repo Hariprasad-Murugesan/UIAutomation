@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+
+
+	<test thread-count="5" parallel="classes" name="chrome" verbose="5">
+		<parameter name="username" value="John Doe"></parameter>
+		<parameter name="password" value="ThisIsNotAPassword"></parameter>
+		<parameter name="url" value="https://katalon-demo-cura.herokuapp.com/"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="TestCase.FrontPage" />
+			<class name="TestCase.LoginPage" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test thread-count="5" parallel="classes" name="edge" verbose="5">
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="username" value="John Doe"></parameter>
+		<parameter name="password" value="ThisIsNotAPassword"></parameter>
+		<parameter name="url" value="https://katalon-demo-cura.herokuapp.com/"></parameter>
+		<classes>
+			<class name="TestCase.FrontPage" />
+			<class name="TestCase.LoginPage" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

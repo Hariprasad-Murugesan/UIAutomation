@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-19T18:52:56 CEST" name="Suite" finished-at="2024-07-19T18:53:45 CEST" duration-ms="48229">
+    <groups>
+    </groups>
+    <test started-at="2024-07-19T18:52:56 CEST" name="chrome" finished-at="2024-07-19T18:53:14 CEST" duration-ms="17835">
+      <class name="TestCase.FrontPage">
+        <test-method is-config="true" signature="preConditions(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FrontPage@2dc54ad4]" started-at="2024-07-19T18:52:57 CEST" name="preConditions" finished-at="2024-07-19T18:53:03 CEST" duration-ms="6111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="runFrontPage()[pri:0, instance:TestCase.FrontPage@2dc54ad4]" started-at="2024-07-19T18:53:03 CEST" name="runFrontPage" finished-at="2024-07-19T18:53:09 CEST" duration-ms="6466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFrontPage -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:TestCase.FrontPage@2dc54ad4]" started-at="2024-07-19T18:53:09 CEST" name="postConditions" finished-at="2024-07-19T18:53:14 CEST" duration-ms="5211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- TestCase.FrontPage -->
+      <class name="TestCase.LoginPage">
+        <test-method is-config="true" signature="preConditions(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPage@368247b9]" started-at="2024-07-19T18:52:57 CEST" name="preConditions" finished-at="2024-07-19T18:53:03 CEST" duration-ms="6035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="runLoginPage(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPage@368247b9]" started-at="2024-07-19T18:53:03 CEST" name="runLoginPage" finished-at="2024-07-19T18:53:08 CEST" duration-ms="5778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLoginPage -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:TestCase.LoginPage@368247b9]" started-at="2024-07-19T18:53:08 CEST" name="postConditions" finished-at="2024-07-19T18:53:14 CEST" duration-ms="5281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- TestCase.LoginPage -->
+    </test> <!-- chrome -->
+    <test started-at="2024-07-19T18:53:14 CEST" name="edge" finished-at="2024-07-19T18:53:45 CEST" duration-ms="30360">
+      <class name="TestCase.FrontPage">
+        <test-method is-config="true" signature="preConditions(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FrontPage@235ecd9f]" started-at="2024-07-19T18:53:14 CEST" name="preConditions" finished-at="2024-07-19T18:53:20 CEST" duration-ms="5832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="runFrontPage()[pri:0, instance:TestCase.FrontPage@235ecd9f]" started-at="2024-07-19T18:53:20 CEST" name="runFrontPage" finished-at="2024-07-19T18:53:26 CEST" duration-ms="6236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFrontPage -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:TestCase.FrontPage@235ecd9f]" started-at="2024-07-19T18:53:26 CEST" name="postConditions" finished-at="2024-07-19T18:53:33 CEST" duration-ms="6220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- TestCase.FrontPage -->
+      <class name="TestCase.LoginPage">
+        <test-method is-config="true" signature="preConditions(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPage@1ca3b418]" started-at="2024-07-19T18:53:14 CEST" name="preConditions" finished-at="2024-07-19T18:53:33 CEST" duration-ms="18576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="runLoginPage(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPage@1ca3b418]" started-at="2024-07-19T18:53:33 CEST" name="runLoginPage" finished-at="2024-07-19T18:53:38 CEST" duration-ms="5520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLoginPage -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:TestCase.LoginPage@1ca3b418]" started-at="2024-07-19T18:53:38 CEST" name="postConditions" finished-at="2024-07-19T18:53:45 CEST" duration-ms="6260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- TestCase.LoginPage -->
+    </test> <!-- edge -->
+  </suite> <!-- Suite -->
+</testng-results>

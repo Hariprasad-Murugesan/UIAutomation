@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="chrome(failed)">
+    <parameter name="password" value="ThisIsNotAPassword"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://katalon-demo-cura.herokuapp.com/"/>
+    <parameter name="username" value="John Doe"/>
+    <classes>
+      <class name="TestCase.LoginPage">
+        <methods>
+          <include name="preConditions"/>
+          <include name="runLoginPage"/>
+          <include name="postConditions"/>
+        </methods>
+      </class> <!-- TestCase.LoginPage -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test thread-count="5" parallel="classes" name="edge(failed)">
+    <parameter name="password" value="ThisIsNotAPassword"/>
+    <parameter name="browser" value="edge"/>
+    <parameter name="url" value="https://katalon-demo-cura.herokuapp.com/"/>
+    <parameter name="username" value="John Doe"/>
+    <classes>
+      <class name="TestCase.LoginPage">
+        <methods>
+          <include name="preConditions"/>
+          <include name="runLoginPage"/>
+          <include name="postConditions"/>
+        </methods>
+      </class> <!-- TestCase.LoginPage -->
+    </classes>
+  </test> <!-- edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->
